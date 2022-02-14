@@ -1,0 +1,30 @@
+{
+  "name": "vue-manage-system",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 8089 --mode development",
+    "build": "vue-cli-service build --config ./vue.config.js"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^0.2.7",
+    "axios": "^0.21.1",
+    "element-plus": "^2.0.1",
+    "vue": "^3.1.2",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
+    "@vue/compiler-sfc": "^3.1.2",
+    "axios-mock-adapter": "^1.20.0",
+    "mockjs": "^1.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
