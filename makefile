@@ -2,7 +2,7 @@ GO111MODULE=on
 
 PROJECTNAME = $(shell basename "$(PWD)")
 GOBASE = $(shell pwd)
-MAINFILE = cmd/main.go
+MAINFILE = cmd/gomanager/main.go
 
 .PHONY: build-vue
 build-vue:

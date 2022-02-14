@@ -4,7 +4,6 @@ package-lock.json
 .dist/
 dist/
 statik/
-config/config.ini
 
 
 # local env files
