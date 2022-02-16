@@ -1,4 +1,4 @@
-//go:generate statik -src=./../web/dist -dest=./../ -f
+//go:generate statik -src=./../../web/dist -dest=./../../ -f
 package main
 
 import (

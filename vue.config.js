@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
     publicPath: "/",
-    outputDir: 'web/dist',
+    outputDir: 'www/dist',
     pages: {
         index: {
-            entry: "web/src/main.js",
+            entry: "www/src/main.js",
         }
     },
     configureWebpack: {
